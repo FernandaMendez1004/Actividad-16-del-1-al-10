@@ -50,4 +50,17 @@ switch (opcion)
         }
         while (num4 <=20);
         break;
+    case 5:
+        int num5 = 1;
+        Console.WriteLine("Ejercicio 5");
+        do
+        {
+            if (num5 % 2 == 0)
+            {
+                Console.WriteLine($"{num5}");
+            }
+            num5++;
+        }
+        while (num5 <= 20);
+        break;
 }
