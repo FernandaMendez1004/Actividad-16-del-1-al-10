@@ -8,12 +8,26 @@ switch (opcion)
 {
     case 1:
     int num1 = 1;
-    do
-    {
-    Console.WriteLine("Ejercicio 1");
-    Console.WriteLine($"{num1}");
-    num1++;
-    }
-    while (num1 <=5 );
-    break;
+        Console.WriteLine("Ejercicio 1");
+        do
+        {   
+        Console.WriteLine($"{num1}");
+        num1++;
+        }
+        while (num1 <=5 );
+        break;
+
+    case 2:
+    int num2 = 1;
+        Console.WriteLine("Ejercicio 2");
+        do
+        {
+            Console.WriteLine($"{num2}");
+            num2++;
+        }
+        while (num2 <=10 );
+        break;
+    case 3:
+        int num3 = 10;
+        Console.WriteLine("Ejer");
 }
