@@ -96,4 +96,23 @@ switch (opcion)
         while (num8 <= 10); 
         break;
     case 9:
+        int num9 = 1;
+        Console.WriteLine("Ejercicio 9");
+        do
+        {
+            if (num9 % 2 != 0)
+            {
+                Console.WriteLine($"{num9} = Numero par");
+
+                num9++;
+            }
+            else
+            {
+                Console.WriteLine($"{num9} = Numero impar");
+                num9++;
+            }
+        }
+        while (num9 <= 20);
+        break;
+
 }
