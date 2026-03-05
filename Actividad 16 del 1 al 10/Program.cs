@@ -37,4 +37,17 @@ switch (opcion)
         }
         while (num3 >= 1 );
         break;
+    case 4:
+        int num4 = 2;
+        Console.WriteLine("Ejercicio 4");
+        do
+        {
+            if (num4 % 2 == 0)
+            {
+                Console.WriteLine($"{num4}");
+            }
+            num4++;
+        }
+        while (num4 <=20);
+        break;
 }
