@@ -75,7 +75,7 @@ switch (opcion)
         break;
     case 7:
         int num7 = 1;
-        int suma7 = 1;
+        int suma7 = 0;
         Console.WriteLine("Ejercicio 7");
         do
         { 
@@ -85,4 +85,15 @@ switch (opcion)
         while (num7 <= 10);
         Console.WriteLine($"La suma de los números del 1 al 10 es {suma7}");
         break;
+    case 8:
+        int num8 = 1;
+        Console.WriteLine("Ejercicio 8");
+        do
+        {
+            Console.WriteLine($"5 * {num8} = {5*num8}");
+            num8++; 
+        }
+        while (num8 <= 10); 
+        break;
+    case 9:
 }
