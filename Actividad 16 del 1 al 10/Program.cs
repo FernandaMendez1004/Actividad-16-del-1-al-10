@@ -114,5 +114,17 @@ switch (opcion)
         }
         while (num9 <= 20);
         break;
-
+    case 10:
+        int num10 = 1;
+        int contador10 = 0;
+        Console.WriteLine("Ejercicio 10");
+        do
+        {
+            Console.WriteLine($"{num10}");
+            num10++;
+            contador10++;
+        }
+        while (num10 <= 50);
+        Console.WriteLine($"Fueron {contador10} numeros");
+        break;
 }
