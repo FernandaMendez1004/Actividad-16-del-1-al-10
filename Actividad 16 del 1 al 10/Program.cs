@@ -29,5 +29,12 @@ switch (opcion)
         break;
     case 3:
         int num3 = 10;
-        Console.WriteLine("Ejer");
+        Console.WriteLine("Ejercicio 3");
+        do
+        {
+            Console.WriteLine($"{num3}");
+            num3--;
+        }
+        while (num3 >= 1 );
+        break;
 }
