@@ -1,6 +1,7 @@
 ﻿Console.WriteLine("Actividad 16 ej 1 al 10");
+Console.WriteLine("1.Escriba un programa que imprima los números del 1 al 5 utilizando do-while.\r\n2.Escriba un programa que imprima los números del 1 al 10 utilizando do-while.\r\n3.Cree un programa que imprima los números del 10 al 1 en orden descendente utilizando do-while.\r\n4.Escriba un programa que imprima los números pares del 2 al 20 utilizando do-while.\r\n5.Cree un programa que imprima los números impares del 1 al 15 utilizando do-while.o 1");
+Console.WriteLine("6.Escriba un programa que muestre los números del 1 al 10 junto con su cuadrado.\r\n7.Cree un programa que calcule la suma de los números del 1 al 10 utilizando do-while.\r\n8.Escriba un programa que muestre la tabla de multiplicar del 5 utilizando do-while.\r\n9.Cree un programa que muestre los números del 1 al 20 indicando si son pares o impares.\r\n10.Escriba un programa que cuente cuántos números hay del 1 al 50 utilizando do-while.");
 Console.WriteLine("Elija una opción");
-Console.WriteLine("1. Ejercicio 1");
 int opcion = int.Parse(Console.ReadLine());
 
 
