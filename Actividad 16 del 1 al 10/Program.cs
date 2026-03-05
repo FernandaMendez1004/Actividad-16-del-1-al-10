@@ -73,4 +73,16 @@ switch (opcion)
         }
         while (num6 <= 10);
         break;
+    case 7:
+        int num7 = 1;
+        int suma7 = 1;
+        Console.WriteLine("Ejercicio 7");
+        do
+        { 
+           suma7 = suma7 + num7;
+            num7++;
+        }
+        while (num7 <= 10);
+        Console.WriteLine($"La suma de los números del 1 al 10 es {suma7}");
+        break;
 }
