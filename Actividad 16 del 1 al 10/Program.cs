@@ -63,4 +63,14 @@ switch (opcion)
         }
         while (num5 <= 20);
         break;
+    case 6:
+        int num6 = 1;
+        Console.WriteLine("Ejercicio 6");
+        do
+        {
+            Console.WriteLine($"{num6} su cuadrado es {num6 * num6}");
+            num6++;
+        }
+        while (num6 <= 10);
+        break;
 }
